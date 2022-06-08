@@ -1,0 +1,103 @@
+.restaurants-container {
+  position: absolute;
+  top: 252px;
+  width: 100%;
+  min-height: 804px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurants-container {
+    top: 530px;
+    height: 730px;
+    width: 77.08333333333333%;
+  }
+}
+
+.restaurants-list-loader-container {
+  position: absolute;
+  top: 200px;
+}
+.list-loader-container {
+  position: absolute;
+  top: 900px;
+  height: 32px;
+  width: 32px;
+}
+@media screen and (min-width: 768px) {
+  .list-loader-container {
+    top: 396px;
+    height: 53.33px;
+    width: 53.33px;
+  }
+}
+
+.restaurants-list-counter-container {
+  width: 100%;
+}
+
+.restaurants-list-container {
+  position: absolute;
+  top: 200px;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .restaurants-list-container {
+    padding: 0;
+  }
+}
+
+.pagination-container {
+  position: absolute;
+
+  top: 1300px;
+  bottom: 64px;
+
+  height: 24px;
+  width: 125px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .pagination-container {
+    top: 644px;
+  }
+}
+
+.pagination-button {
+  height: 24px;
+  width: 24px;
+  border: 1px solid #334155;
+  background-color: transparent;
+
+  color: #334155;
+
+  font-weight: 600;
+
+  outline: none;
+  cursor: pointer;
+}
+
+.pagination-text {
+  font-family: Bree Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}

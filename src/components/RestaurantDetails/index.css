@@ -1,0 +1,239 @@
+.restaurant-details-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 2310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-details-container {
+    min-height: 2050px;
+  }
+}
+
+.loader-container {
+  position: absolute;
+  top: 64px;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .loader-container {
+    top: 96px;
+  }
+}
+
+.details-loader-container {
+  position: absolute;
+  top: 47%;
+  height: 32px;
+  width: 32px;
+}
+@media screen and (min-width: 768px) {
+  .details-loader-container {
+    top: 35%;
+    height: 53.33px;
+    width: 53.33px;
+  }
+}
+.restaurant-header-container {
+  position: absolute;
+  top: 64px;
+  height: 188px;
+  width: 100%;
+  background-color: #333333;
+  background-image: url('https://res.cloudinary.com/dpx8zts9r/image/upload/v1637483397/restaurant-detail-background-image_u4khfc.png');
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-header-container {
+    top: 140px;
+    height: 344px;
+  }
+}
+
+.restaurant-details-image-container {
+  position: absolute;
+  width: 360px;
+  height: 188px;
+  left: 0px;
+  top: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-details-image-container {
+    width: 795px;
+    height: 280px;
+    left: 11.45833333333333%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+.restaurant-image {
+  position: absolute;
+  width: 221px;
+  height: 221px;
+  left: -68px;
+  top: -54px;
+  border-radius: 133.33px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-image {
+    width: 445px;
+    height: 280px;
+    top: 0px;
+    left: 0px;
+
+    border-radius: 8px;
+  }
+}
+
+.restaurant-data-container {
+  position: absolute;
+  width: 175px;
+  height: 124px;
+  top: 24px;
+  left: 169px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-data-container {
+    width: 320px;
+    height: 168px;
+    left: 472px;
+    top: 56px;
+  }
+}
+
+.restaurant-header-card-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-header-card-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+.cuisine-location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .cuisine-location {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.rating-cost-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-cost {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+.rating-cost-tag {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Light / blue-gray / 200 */
+
+  color: #e2e8f0;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-cost-tag {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.vertical-line {
+  border: 1px solid #e2e8f0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.food-items-container {
+  position: absolute;
+  top: 252px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+@media screen and (min-width: 768px) {
+  .food-items-container {
+    top: 500px;
+
+    width: 77.08333333333333%;
+    padding: 0;
+    left: 12.5%;
+  }
+}

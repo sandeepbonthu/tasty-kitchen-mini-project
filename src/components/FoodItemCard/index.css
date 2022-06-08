@@ -1,0 +1,187 @@
+.food-item-card-container {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-item-card-container {
+    width: 49%;
+  }
+}
+
+.food-item-card-image {
+  height: 100px;
+  width: 165px;
+  border-radius: 8px;
+
+  flex-shrink: 0;
+}
+@media screen and (min-width: 768px) {
+  .food-item-card-image {
+    height: 150px;
+    width: 255px;
+  }
+}
+
+.data-container {
+  width: 40%;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2px;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+  margin: 0;
+}
+
+.cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+  margin: 0;
+}
+
+.food-item-rating-container {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.2px;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+  margin: 0;
+}
+
+.rating-logo {
+  font-size: 12px;
+  color: #ffcc00;
+}
+.rating-count {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+  margin: 0 5px 0 0;
+}
+
+.total-reviews-text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+  margin: 0;
+}
+
+.add-button {
+  height: 24px;
+  width: 44px;
+  padding: 5.7931px 11.5862px;
+
+  border: 1.44828px solid #ffa412;
+  box-sizing: border-box;
+  border-radius: 5.7931px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+
+  color: #ffa412;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-subtract-counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 74px;
+  height: 24px;
+}
+
+.add-subtract-counter-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  background-color: transparent;
+  width: 18px;
+  height: 18px;
+  color: #475569;
+  border: 0.75px solid #475569;
+  box-sizing: border-box;
+  border-radius: 2.25px;
+}
+
+.add-subtract-quantity-count {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,94 @@
+.payment-success-container {
+  position: absolute;
+  left: 6.67%;
+  right: 6.67%;
+  top: 25%;
+  bottom: 25%;
+
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+}
+.success-image {
+  height: 38.39999771118164px;
+  width: 38.39999771118164px;
+}
+@media screen and (min-width: 768px) {
+  .success-image {
+    height: 63.999996185302734px;
+    width: 63.999996185302734px;
+  }
+}
+
+.payment-success-title-1 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-success-title-1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.payment-success-title-2 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .payment-success-title-2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.go-to-home-page-button {
+  height: 32px;
+  width: 131px;
+
+  padding: 8px 16px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  margin: 0px 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,124 @@
+.text-sort-container {
+  width: 100%;
+  padding: 24px;
+}
+@media screen and (min-width: 768px) {
+  .text-sort-container {
+    padding: 0;
+  }
+}
+.text-sort-by-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .text-sort-by-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+}
+
+.popular-restaurants-title {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  color: #183b56;
+}
+@media screen and (min-width: 768px) {
+  .popular-restaurants-title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+.select-your-fav-line {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .select-your-fav-line {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.sort-by-container {
+  display: flex;
+  align-items: center;
+}
+
+.sort-by-icon {
+  color: #475569;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.sort-by {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+
+.sort-by-select {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  background-color: #ffffff;
+  outline: none;
+  margin: 0;
+  border: none;
+}
+
+.sort-by-select option {
+  background: #ffffff;
+  border-radius: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
+  padding: 8px;
+}
+
+.middle-line {
+  border: 1px dashed #cbd2d9;
+}
+
+@media screen and (max-width: 767px) {
+  .middle-line {
+    display: none;
+  }
+}

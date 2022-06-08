@@ -1,0 +1,87 @@
+.restaurants-offers-container {
+  position: absolute;
+  top: 64px;
+  height: 188px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .restaurants-offers-container {
+    top: 146px;
+    height: 320px;
+    width: 77.08333333333333%;
+  }
+}
+
+.offers-loader-container {
+  height: 32px;
+  width: 32px;
+}
+@media screen and (min-width: 768px) {
+  .offers-loader-container {
+    height: 53.33px;
+    width: 53.33px;
+  }
+}
+
+.slider-container {
+  height: 188px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .slider-container {
+    height: 320px;
+    border-radius: 8px;
+  }
+}
+
+.offer-image {
+  height: 188px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .offer-image {
+    height: 320px;
+    border-radius: 8px;
+  }
+}
+
+.slick-dots {
+  bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-dots {
+    bottom: 10px;
+  }
+}
+
+.slick-dots ul {
+  padding-left: 0;
+}
+
+.slick-dots li button:before {
+  color: #ffffff;
+  font-size: 4px;
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-dots li button:before {
+    font-size: 12px;
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-dots li.slick-active button:before {
+    font-size: 18px;
+  }
+}
